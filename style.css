@@ -1,0 +1,304 @@
+.navbar{
+   
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    background-color: black;
+    padding: 28px 0%;
+    height:10px;
+}
+
+.buttonbar{
+    list-style: none;
+    width: 100%;
+    height: auto;
+   
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color:black;
+    border-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+    margin: auto;
+    margin-right: 80px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+a:hover{
+    color: red;
+}
+a:active{
+      color:  blue;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex: 1;  
+}
+
+.left , .right{
+    width: 48%;
+    padding: 30px;
+    margin-top: 10px;  
+}
+
+.left{
+    border-radius: 10px;
+    border-color: black;
+    border-style: inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1000px;
+    
+    
+}
+.img{
+    height: 40px;
+    width: 40px;
+    display: none;
+}
+
+.para1{
+    color:black;
+    font-size:  24px;
+}
+
+.strong{
+    font-size: 32px;
+    font-weight:bold;
+}
+.para2{
+    color: black;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.click{
+    font-size: medium;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    border-color: black;
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    
+} 
+.insta{
+       height: 50px;
+       width: 50px;
+}
+.whatsapp{
+        height: 50px;
+        width: 50px;
+} 
+.facebook{
+        height: 50px;
+        width: 50px;
+} 
+.social{
+    margin-top: 40px;
+   
+}
+
+.right{
+    background-image: url('images/home.png');
+    background-size: cover;
+    border-radius: 3px;
+    margin-top: 10px;
+    flex: 1000px;
+}
+.main-footer{
+    margin-top: 5px;      
+    text-align: center;
+    padding: 10px;
+    color:white; 
+    background-color: black;
+    font-size: 12px;
+    
+}   
+.programs{
+          display: flex;
+          align-items: center;
+        
+}
+.photos{
+       width: 50%;
+       height: 200px;
+       padding-left:25%;
+       padding-top:3%;
+       
+
+}
+#contact{
+        justify-content: center;
+        margin-left: 50%;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+}
+.content{
+         margin-left: 9px;
+         border: 2px solid black;
+        
+
+}
+.h2{
+    padding-left: 10%;
+    font-weight: bolder;
+    
+} 
+.para1{
+        padding-left: 5%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+        padding-bottom: 5%;
+
+}
+
+.buttons{
+         display: flex;
+         border-radius: 5px ;
+         border-style: inset;
+         border-color: black;
+     }
+
+         
+
+.up , .down{
+    width: 48%;
+    padding: 5px;
+    margin-top: 10px;
+}
+.up label{
+       padding-left: 5%;
+       font-size: larger;
+       font-weight: bolder;
+    
+}
+.step{
+     margin-top: 40px;
+}
+.input{
+       margin-left: 10%;
+       border-radius: 5px;
+       width: 50%;
+      
+}
+.some{
+    margin-left: 5.5%;
+    border-radius: 5px;
+    width: 50%;
+   
+
+
+}
+
+.msg{
+    
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 10px;
+      
+
+ 
+
+} 
+.gel{
+    margin-left: 2%;
+    border-radius: 5px;
+    width: 50%;
+    height:150px ;
+    border-style: inset;
+   
+
+
+}
+.go{
+    
+    margin-left: 60%;
+    margin-top: 1%;
+}
+    
+.pin{
+
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+border-radius: 5px;
+border-style: inset;
+
+}
+#projects{
+        justify-content: center;
+        margin-left: 50%;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+}
+@media all and ( max-width : 900px) {
+    
+  
+    .buttonbar{
+        position: absolute;
+        top: 100%;
+        right:-100%;
+        width: 90px;
+        height: 45vh;
+        background-color:black;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+    .img{
+        display: block;
+        margin : 40px 400px;
+        transition:all .50s ease;
+    } 
+    .buttonbar.open{
+        right:2%;
+    }
+       
+    .main{
+          
+            height: 75vh;
+            width: 100vw;
+    }
+    
+     
+    .programs{
+              display: flex;
+              flex-direction: column;
+              
+
+    }
+    
+    .left{
+        border-style: none;
+        background-image:url('./images/home.png');
+        background-size: cover;
+        justify-content: flex-end;
+        
+    }
+    .right{
+        display: none;  
+   }
+}
